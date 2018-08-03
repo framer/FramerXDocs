@@ -36,6 +36,8 @@ The Scroll tool will allow you to quickly draw an invisible area on top of a sel
 
 The Scroll tool also lets you choose which directions you can use your scrolling: horizontally, vertically or both. You can also select if you want the mouse wheel turned on or off, so that you can perfectly simulate a mobile experience.
 
+{This should also include how Lock and Unlock functions under the Directions option}
+
 ### Nesting
 
 The Scroll tool also comes with nesting capabilities. So it is now possible to put a vertical scrollable area within a horizontal scrollable area. Perfect for when you are creating advanced prototypes!
