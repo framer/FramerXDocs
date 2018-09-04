@@ -20,7 +20,7 @@ When working on the canvas, you can use the pan tool to quickly pan over your ca
 
 ### Zoom
 
-You can use the Zoom tool \(or use the shorthand "Z"\) to quickly zoom in and out on anything that is on your canvas. You can zoom the canvas to as small as 10% \(to get a great overview of all your Frames\) or zoom in all the way up to 3200% to focus on the nitty gritty.
+You can use the Zoom tool \(or use the shorthand `Z`\) to quickly zoom in and out on anything that is on your canvas. You can zoom the canvas to as small as 10% \(to get a great overview of all your Frames\) or zoom in all the way up to 3200% to focus on the nitty gritty.
 
 ![](.gitbook/assets/canvas-zoom-2x.jpg)
 
@@ -32,7 +32,7 @@ You can easily select any layer on the Canvas by simply clicking on them. Often,
 
 ### Resize
 
-The four handles surrounding your Frame or Shape do not only indicate a selection, but you can also use them to resize the object. Select a handle and drag them to resize the object. Hold down the Shift key and it will resize it by proportion, keeping the height and width at the same ratio.
+The four handles surrounding your Frame or Shape do not only indicate a selection, but you can also use them to resize the object. Select a handle and drag them to resize the object. Hold `Shift` and it will resize it by proportion, keeping the height and width at the same ratio.
 
 ![](.gitbook/assets/canvas-resize-2x.jpg)
 
