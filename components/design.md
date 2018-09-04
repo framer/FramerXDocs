@@ -6,7 +6,7 @@ Design Components are a powerful feature of Framer X to turn any part of your ca
 
 To create a design component, select any Frame on your canvas and select the “Components” panel on the left. There, click “Create Component” on the bottom and select “from Design”. You can also use the shortcut `⌘`+`K` on any selection. After you created the component, it will show up in the Components panel.
 
-Design Components have one master and as many instances as you like. To create instances drag them from the Components panel onto the canvas, or hold the Option key and drag a master or instance to duplicate. When you edit the master, you will see the changes propagate to all instances.
+Design Components have one master and as many instances as you like. To create instances drag them from the Components panel onto the canvas, or hold `Option` and drag a master or instance to duplicate. When you edit the master, you will see the changes propagate to all instances.
 
 ## Overrides
 
