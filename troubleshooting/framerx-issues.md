@@ -4,7 +4,7 @@ Issues and/or confusion regarding the new .framerx format:
 
 ## Framer X documents no longer open or become empty. What now?
 
-Framer X saves your designs and components in brand new  `.framerx`  containers. Unlike in previous versions where the document was simply a folder, you no longer edit things directly inside this file. Instead, every document gets a corresponding **package** folder that gets saved back to the  `.framerx`  file. To see what goes on in here, choose **File &gt; Show Package**.
+Framer X saves your designs and components in brand new  `.framerx`  containers. Unlike in previous versions where the document was simply a folder, you no longer edit things directly inside this file. Instead, every document gets a corresponding **package** folder that gets saved back to the  `.framerx`  file. To see what goes on in here, choose **File &gt; Show Project Folder**.
 
 Aside from introducing a new file format, Framer X also adopts modern macOS saving behavior. Among other things, that means documents are saved automatically when you close the window. If you prefer to manually approve document saving, you can adjust the system-wide behavior in **System Preferences &gt; General &gt; Ask to keep changes when closing documents**.
 
