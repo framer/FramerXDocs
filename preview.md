@@ -32,7 +32,7 @@ Previewing a design and want to quickly switch from landscape to portrait-view? 
 
 ### Keep On Top
 
-Select Keep On Top if you want to cement the preview window stuck in the top corner of your window. This will let you continue with your design while always having the preview in sight _\(You can kind of compare this to Safari its Picture-in-Picture mode_\).
+Select Keep On Top if you want to cement the preview window stuck in the top corner of your window. This will let you continue with your design while always having the preview in sight _\(You can kind of compare this to Safari's Picture-in-Picture mode_\).
 
 ## Presentation
 
