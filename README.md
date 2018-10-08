@@ -1,5 +1,9 @@
 # Framer X
 
+## Framer X has launched. 
+
+Please find our official documentation via [https://www.framer.com/docs](https://www.framer.com/docs) and our resources via [https://www.framer.com/resources](https://www.framer.com/resources). We are actively updating both the documentation and resources as we go, but feel more than welcome to reach out to [support@framer.com](mailto:%20support@framer.com) if you find anything missing.
+
 ## Welcome
 
 Thanks for joining the beta program. This guide is very much a work in progress towards the final release. Feel free to send us feedback, or make suggestions on GitHub directly.
