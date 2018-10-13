@@ -16,5 +16,5 @@ Selecting a frame or shape and right-clicking _delete_ \(or shortcut `⌘`+`X` o
 
 ## Remove Frame
 
-Selecting a frame and right-clicking _remove frame_ \(or shortcut `⌘`+`Backspace`\) will only remove the current Frame. It will not effect the child layers it contains.
+Selecting a frame and right-clicking _remove frame_ \(or shortcut `⌘`+`Backspace`\) will only remove the current Frame. It will not affect the child layers it contains.
 
