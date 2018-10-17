@@ -1,5 +1,58 @@
 # Changelog
 
+## 0.8.1
+
+2018-10-16
+
+## Improved
+
+-   Performance of `Data` objects
+-   Overlay transitions can have a custom backdrop color
+-   Scroll components support mouse-wheel scrolling by default
+
+
+## 0.8.0
+
+2018-09-18
+
+## Improved
+
+-   SVG component is now compatible with Stack layout
+
+## 0.7.13
+
+2018-09-17
+
+## Fixed
+
+-   Removed `debugger` statement
+
+## 0.7.12
+
+2018-09-14
+
+## Added
+
+-   `resource.url()` for referencing resources inside your project
+-   Property control types for files (`ControlType.File`) and images (`ControlType.Image`)
+
+## Improved
+
+-   Display of errors in Components
+
+## Fixed
+
+-   Setting width in percentages for Design Components in Code
+-   Scrolling animation with velocity
+
+## 0.7.11
+
+2018-09-07
+
+### Improved
+
+-   Internal changes for device rendering
+
 ## 0.7.10
 
 2018-09-04
