@@ -4,7 +4,7 @@
 
 2018-10-16
 
-## Improved
+### Improved
 
 -   Performance of `Data` objects
 -   Overlay transitions can have a custom backdrop color
@@ -15,7 +15,7 @@
 
 2018-09-18
 
-## Improved
+### Improved
 
 -   SVG component is now compatible with Stack layout
 
@@ -23,7 +23,7 @@
 
 2018-09-17
 
-## Fixed
+### Fixed
 
 -   Removed `debugger` statement
 
@@ -31,16 +31,16 @@
 
 2018-09-14
 
-## Added
+### Added
 
 -   `resource.url()` for referencing resources inside your project
 -   Property control types for files (`ControlType.File`) and images (`ControlType.Image`)
 
-## Improved
+### Improved
 
 -   Display of errors in Components
 
-## Fixed
+### Fixed
 
 -   Setting width in percentages for Design Components in Code
 -   Scrolling animation with velocity
