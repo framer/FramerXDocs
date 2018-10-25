@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.9.0
+
+2018-10-24
+
+### Added
+
+-   Page component
+-   Property Control types for Arrays and Objects
+-   backfaceVisible, perspective and preserve3d props to Frame
+
+### Fixed
+
+-   Listening Animatable's when updating Frames
+
 ## 0.8.1
 
 2018-10-16
