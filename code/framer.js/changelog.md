@@ -6,13 +6,13 @@
 
 ### Added
 
--   Page component
--   Property Control types for Arrays and Objects
--   backfaceVisible, perspective and preserve3d props to Frame
+* Page component
+* Property Control types for Arrays and Objects
+* backfaceVisible, perspective and preserve3d props to Frame
 
 ### Fixed
 
--   Listening Animatable's when updating Frames
+* Listening Animatable's when updating Frames
 
 ## 0.8.1
 
@@ -20,10 +20,9 @@
 
 ### Improved
 
--   Performance of `Data` objects
--   Overlay transitions can have a custom backdrop color
--   Scroll components support mouse-wheel scrolling by default
-
+* Performance of `Data` objects
+* Overlay transitions can have a custom backdrop color
+* Scroll components support mouse-wheel scrolling by default
 
 ## 0.8.0
 
@@ -31,7 +30,7 @@
 
 ### Improved
 
--   SVG component is now compatible with Stack layout
+* SVG component is now compatible with Stack layout
 
 ## 0.7.13
 
@@ -39,7 +38,7 @@
 
 ### Fixed
 
--   Removed `debugger` statement
+* Removed `debugger` statement
 
 ## 0.7.12
 
@@ -47,17 +46,17 @@
 
 ### Added
 
--   `resource.url()` for referencing resources inside your project
--   Property control types for files (`ControlType.File`) and images (`ControlType.Image`)
+* `resource.url()` for referencing resources inside your project
+* Property control types for files \(`ControlType.File`\) and images \(`ControlType.Image`\)
 
 ### Improved
 
--   Display of errors in Components
+* Display of errors in Components
 
 ### Fixed
 
--   Setting width in percentages for Design Components in Code
--   Scrolling animation with velocity
+* Setting width in percentages for Design Components in Code
+* Scrolling animation with velocity
 
 ## 0.7.11
 
@@ -65,7 +64,7 @@
 
 ### Improved
 
--   Internal changes for device rendering
+* Internal changes for device rendering
 
 ## 0.7.10
 

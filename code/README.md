@@ -40,7 +40,7 @@ Framer X relies on an external editor for writing code. Any editor will work, bu
 * At the  "Open With…" section you can select your editor.
 * Click "Change All…" and then choose "Continue".
 
-You may have to restart your editor in order for Framer X to notice the new default choice. If you still get an error, make sure your editor is not in some updating state where there are temporarily two apps.
+You may have to restart your editor in order for Framer X to notice the new default choice. It may still serve you with an error if you were in the middle of updating your code editor to its latest version. If that happens then re-try the steps given above, select the newest version \(if there are two versions\) and it should work.
 
 ## Workflow
 
