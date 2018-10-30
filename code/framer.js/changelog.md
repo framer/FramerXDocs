@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.1
+
+2018-10-30
+
+### Improved
+
+-   Component Loader error handling
+
 ## 0.9.0
 
 2018-10-24
