@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.9.2
+
+2018-10-31
+
+### Fixed
+
+- Correctly calculate `currentPage` of PageComponent on initialization.
+
+### Improved
+
+- Performance of `isEqual`
+
 ## 0.9.1
 
 2018-10-30
