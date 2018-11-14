@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.3
+
+2018-11-14
+
+### Fixed
+
+- Handling of errors in Code Components
+
 ## 0.9.2
 
 2018-10-31
