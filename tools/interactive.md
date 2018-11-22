@@ -6,7 +6,7 @@
 
 ### How it works
 
-Framer X comes with a built-in Link tool. Simply by selecting the tool \(or using the shortkey "L"\) you will be able to connect one Frame and draw a line to another \(or by selecting the target from the properties window\) and you will be able to create an advanced flow in a matter of seconds, without any coding involved!
+Framer X comes with a built-in Link tool. Simply by selecting the tool \(or using the shortcut `L`\) you will be able to connect one Frame and draw a line to another \(or by selecting the target from the properties window\) and you will be able to create an advanced flow in a matter of seconds, without any coding involved!
 
 ### Options
 
