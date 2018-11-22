@@ -48,7 +48,7 @@ If you edit any Framer X code it automatically gets updated in Framer X when you
 
 If you get an error, the component will turn red and display the error message with optional suggestions where to look for the exact error. There are two types of errors:
 
-* **Syntax error** – You likely made a typo in your code and the computer does not understand it. The most common ones are capitalisation errors, missing brackets or comma’s.
+* **Syntax error** – You likely made a typo in your code, and the computer does not understand it. The most common ones are capitalisation errors, missing brackets, and commas.
 * **Runtime error** – Something went wrong while running the code. This can be anything really.
 
 Errors are listed in the right bottom of your screen. To deeper investigate errors, you can use the [web inspector](https://developer.apple.com/safari/tools/) by clicking on the error counter, or right clicking in the Preview and choosing “Inspect Element”.
