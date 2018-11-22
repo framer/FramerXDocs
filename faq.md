@@ -38,11 +38,11 @@ However you like. We prefer inline styles, but everything from Styled Components
 
 ## How do I see the package contents?
 
-Framer projects are zipped JavaScript files with a `package.json` that temporarily get extracted while your project is open. You can reveal the contents with `File > Show Package`.
+Framer projects are zipped JavaScript files with a `package.json` that temporarily get extracted while your project is open. You can reveal the contents with `File > Show Project Folder`.
 
 ## How can I use external npm libraries?
 
-This is still very fragile but you can open a Framer X project, `File > Show Package` and use the terminal to use `yarn add <package>` .
+This is still very fragile but you can open a Framer X project, `File > Show Project Folder` and use the terminal to use `yarn add <package>` .
 
 Any Framer store package lives under the `@framer` namespace. Every other package name will be proxied through to public npm.
 
