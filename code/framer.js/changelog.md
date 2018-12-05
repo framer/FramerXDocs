@@ -1,11 +1,5 @@
 # Framer Library
 
-## [0.9.8] - 2018-11-24
-
-### Fixed
-
--   Restored Animatable.set in type public file
-
 ## [0.9.7] - 2018-11-22
 
 ### Fixed
