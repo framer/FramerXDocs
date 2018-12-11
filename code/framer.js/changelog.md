@@ -1,5 +1,17 @@
 # Framer Library
 
+## [0.10.0] - 2018-12-11
+
+### Improved
+
+-   Navigation overlays
+-   Renamed PageEffectDefault to PageEffect
+
+### Fixed
+
+-   Types for Stack and Page components
+-   Restored Animatable.set in type public file
+
 ## [0.9.7] - 2018-11-22
 
 ### Fixed
