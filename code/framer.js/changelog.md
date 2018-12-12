@@ -2,10 +2,15 @@
 
 ## [0.10.0] - 2018-12-11
 
+### Breaking changes
+
+-   `PageContentDimension` is no longer an enum but a union type of "auto" and "stretch" which means that if you were using `PageContentDimension.Stretch` you should now replace it with `"stretch"`
+-   `PageEffectDefault` has been renamed to `PageEffect`
+
 ### Improved
 
 -   Navigation overlays
--   Renamed PageEffectDefault to PageEffect
+-   Added inline documentation in VSCode
 
 ### Fixed
 
