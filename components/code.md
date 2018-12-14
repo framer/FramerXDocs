@@ -16,7 +16,7 @@ As code components are just [React](https://reactjs.org/) components, it is usef
 
 ```typescript
 import * as React from "react";
-​
+
 export class Example extends React.Component {
   render() {
     return <div style={{color: "blue"}}>Hello World!</div>
@@ -44,7 +44,7 @@ export class Example extends React.Component {
 }
 ```
 
-This should look very familiar if you have done web development before, and it's a full blown React component. From here, I would recommend to continue to learn React from their [excellent documentation](http://reactjs.com).
+This should look very familiar if you have done web development before, and it's a full blown React component. From here, I would recommend to continue to learn React from their [excellent documentation](https://reactjs.org).
 
 ## Creating a Code Component
 
@@ -65,7 +65,7 @@ Every component rendered on the canvas or preview is wrapped in a Frame so they 
 ```typescript
 import * as React from "react";
 
-export class Example extends React.Component<{width:number, height: number}> {
+export class Example extends React.Component<{width: number, height: number}> {
   render() {
     return (
       <div>
@@ -89,7 +89,7 @@ React props are basically the attributes for a component to display, and one of 
 ```typescript
 import * as React from "react";
 
-export class Example extends React.Component<{width:number, height: number}> {
+export class Example extends React.Component<{width: number, height: number}> {
   render() {
     return (
       <div style={{width: this.props.width, height: this.props.height}}>
@@ -103,7 +103,7 @@ export class Example extends React.Component<{width:number, height: number}> {
 
 Framer detects you are using the props.children property in your render method and automatically adds a connector to each instance of the component on your canvas \(a purple dot on the right side, like the scroll tool\). You can drag a connection from this connector to any Frame on the canvas and it will use it as its children to render.
 
-_Hint: you can even override the props for the children by using_ `React.Children.Map` _and_ `React.Children.cloneElement` _methods._
+_Hint: you can even override the props for the children by using_ `React.Children.map` _and_ `React.cloneElement` _methods._
 
 #### Using canvas imports
 
@@ -133,26 +133,26 @@ import * as React from "react"
 import { PropertyControls, ControlType } from "framer"
 
 interface Props {
-    title: string
-    tintColor: string
-    dimOverlay: boolean
+  title: string
+  tintColor: string
+  dimOverlay: boolean
 }
 
 export class Example extends React.Component<Partial<Props>> {
 
-    static defaultProps = {
-        title: "A short description of the actions goes here.",
-        tintColor: "#007AFF",
-        dimOverlay: true,
-    }
+  static defaultProps = {
+    title: "A short description of the actions goes here.",
+    tintColor: "#007AFF",
+    dimOverlay: true,
+  }
 
-    static propertyControls: PropertyControls<Props> = {
-        title: { type: ControlType.String, title: "Title" },
-        tintColor: { type: ControlType.Color, title: "Tint" },
-        dimOverlay: { type: ControlType.Boolean, disabledTitle: "Hide", enabledTitle: "Show", title: "DimOverlay" },
-    }
+  static propertyControls: PropertyControls<Props> = {
+    title: { type: ControlType.String, title: "Title" },
+    tintColor: { type: ControlType.Color, title: "Tint" },
+    dimOverlay: { type: ControlType.Boolean, disabledTitle: "Hide", enabledTitle: "Show", title: "DimOverlay" },
+  }
 
-    render() { ... }
+  render() { ... }
 }
 ```
 
@@ -176,9 +176,9 @@ Booleans use a segmented control. The segment titles are `True` and `False` by d
 
 ```typescript
 interface BooleanControlDescription {
-    type: ControlType.Boolean
-    disabledTitle?: string
-    enabledTitle?: string
+  type: ControlType.Boolean
+  disabledTitle?: string
+  enabledTitle?: string
 }
 ```
 
@@ -192,11 +192,11 @@ When the unit type is set to %, the input field will display `10` as `10%`.
 
 ```typescript
 interface NumberControlDescription {
-    type: ControlType.Number
-    max?: number
-    min?: number
-    step?: number
-    unit?: string
+  type: ControlType.Number
+  max?: number
+  min?: number
+  step?: number
+  unit?: string
 }
 ```
 
@@ -206,8 +206,8 @@ String controls are displayed using a single line input field. A placeholder val
 
 ```typescript
 interface StringControlDescription {
-    type: ControlType.String
-    placeholder?: string
+  type: ControlType.String
+  placeholder?: string
 }
 ```
 
@@ -237,8 +237,8 @@ File controls are displayed using a file picker that shows the file name after s
 
 ```typescript
 interface ColorControlDescription {
-    type: ControlType.File
-    allowedFileTypes: string[]
+  type: ControlType.File
+  allowedFileTypes: string[]
 }
 ```
 
@@ -248,9 +248,9 @@ An enum control displays a pop-up button with a fixed set of string values. The 
 
 ```typescript
 interface EnumControlDescription {
-    type: ControlType.Enum
-    options: string[]
-    optionTitles?: string[]
+  type: ControlType.Enum
+  options: string[]
+  optionTitles?: string[]
 }
 ```
 
@@ -281,9 +281,9 @@ A segmented enum control is displayed using a segmented control. Since a segment
 
 ```typescript
 interface SegmentedEnumControlDescription {
-    type: ControlType.SegmentedEnum
-    options: string[]
-    optionTitles?: string[]
+  type: ControlType.SegmentedEnum
+  options: string[]
+  optionTitles?: string[]
 }
 ```
 
@@ -293,12 +293,12 @@ The fused number control is specifically created for border-radius, border-width
 
 ```typescript
 interface FusedNumberControlDescription {
-    type: ControlType.FusedNumber
-    splitKey: string
-    splitLabels: [string, string]
-    valueKeys: [string, string, string, string]
-    valueLabels: [string, string, string, string]
-    min?: number
+  type: ControlType.FusedNumber
+  splitKey: string
+  splitLabels: [string, string]
+  valueKeys: [string, string, string, string]
+  valueLabels: [string, string, string, string]
+  min?: number
 }
 ```
 
@@ -344,25 +344,25 @@ In the following example we hide the the `inCall` boolean control when the conne
 
 ```typescript
 interface Props {
-    connected: boolean
-    inCall: boolean
+  connected: boolean
+  inCall: boolean
 }
 
 export class NetworkComponent extends React.Component<Props> {
-    static defaultProps: Props = {
-        connected: true,
-        inCall: false,
-    }
+  static defaultProps: Props = {
+    connected: true,
+    inCall: false,
+  }
 
-    static propertyControls: PropertyControls<Props> = {
-        connected: { type: ControlType.Boolean },
-        inCall: {
-            type: ControlType.Boolean,
-            hidden(props) {
-                return props.connected === false
-            },
-        },
-    }
+  static propertyControls: PropertyControls<Props> = {
+    connected: { type: ControlType.Boolean },
+    inCall: {
+      type: ControlType.Boolean,
+      hidden(props) {
+        return props.connected === false
+      },
+    },
+  }
 }
 ```
 
