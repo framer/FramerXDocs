@@ -1,5 +1,16 @@
 # Framer Library
 
+## [0.10.1] - 2018-12-19
+
+### Added
+
+-   `onMouseEnter` and `onMouseLeave` events to Frame
+
+### Fixed
+
+-   Event handlers being called twice in Code overrides
+-   Device masks are no longer shown on actual devices
+
 ## [0.10.0] - 2018-12-11
 
 ### Breaking changes
