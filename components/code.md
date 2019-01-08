@@ -294,8 +294,8 @@ The fused number control is specifically created for border-radius, border-width
 ```typescript
 interface FusedNumberControlDescription {
   type: ControlType.FusedNumber
-  splitKey: string
-  splitLabels: [string, string]
+  toggleKey: string
+  toggleTitles: [string, string]
   valueKeys: [string, string, string, string]
   valueLabels: [string, string, string, string]
   min?: number
