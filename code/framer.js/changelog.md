@@ -1,5 +1,16 @@
 # Framer Library
 
+## [0.10.2] - 2019-01-21
+
+### Fixed
+
+-   Navigation component showing the wrong screen
+-   `onTapStart` for touch environments
+-   Stacks in design components having the wrong background
+-   Properties getter has been replaced by `this.props` with better typing
+-   Text wrapping could break when switching between Fixed and Auto
+-   Miscellaneous cleanup
+
 ## [0.10.1] - 2018-12-19
 
 ### Added
