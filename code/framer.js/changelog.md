@@ -1,5 +1,11 @@
 # Framer Library
 
+## [0.10.3] - 2019-01-24
+
+### Fixed
+
+- Device images not showing in when viewing a hosted project
+
 ## [0.10.2] - 2019-01-21
 
 ### Fixed
